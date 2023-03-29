@@ -1,8 +1,8 @@
-import BaseTemplate from "./templates/base-template"
+import HomePage from "./pages/home"
 
 function App() {
 
-  return <BaseTemplate />
+  return <HomePage />
 }
 
 export default App
