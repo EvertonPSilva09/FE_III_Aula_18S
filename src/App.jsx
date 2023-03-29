@@ -1,11 +1,8 @@
+import HomePage from "./pages/home"
 
 function App() {
 
-  return (
-    <div className="App">
-      <h1>Olá</h1>
-    </div>
-  )
+  return <HomePage />
 }
 
 export default App
