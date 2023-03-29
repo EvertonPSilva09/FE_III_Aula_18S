@@ -1,11 +1,11 @@
 import Footer from "../../components/footer";
 import Header from "../../components/header";
 
-export default function BaseTemplate() {
+export default function BaseTemplate(props) {
   return (
     <div>
       <Header />
-      <h1>Meu Template Base</h1>
+      {props.children}
       <Footer />
     </div>
   );
